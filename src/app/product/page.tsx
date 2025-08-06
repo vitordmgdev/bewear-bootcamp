@@ -1,10 +1,16 @@
+"use server"
+
 import { Button } from '@/components/ui/button'
 
-const Product = () => {
+const Product = async () => {
+    
+
     return (
         <div>
             <h1>Produto</h1>
-            <Button>Comprar produto</Button>
+            <Button>
+                Comprar produto
+            </Button>
         </div>
     )
 }
